@@ -21,7 +21,7 @@ class RunnerRetriever {
 
     getScriptList = () => {
 
-        let scriptsPath = path.join(__dirname, '../../', this.Directories.scripts);
+        let scriptsPath = path.join(__dirname, '../../../', this.Directories.scripts);
 
         let output = [];
 
