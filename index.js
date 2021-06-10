@@ -33,9 +33,9 @@ class RunnerRetriever {
             _files.forEach((_file) => {
                 output.push(_file);
             });
-        });
 
-        return output;
+            return output;
+        });
 
     }
 
